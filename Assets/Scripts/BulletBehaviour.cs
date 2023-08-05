@@ -10,9 +10,12 @@ public class BulletBehaviour : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if (!other.CompareTag(TargetTag)) return;
+        if (!other.CompareTag(TargetTag))
+        {
+            Destroy(gameObject);
+            return;
+        }
         
-        Debug.Log(Damage);
         other.GetComponent<Health>().TakeDamage(Damage);
         Destroy(gameObject);
     }

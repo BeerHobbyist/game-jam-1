@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
+// ReSharper disable Unity.InefficientPropertyAccess
 
 public class MeleeEnemyController : MonoBehaviour
 {
@@ -20,6 +21,17 @@ public class MeleeEnemyController : MonoBehaviour
 
     private void TrackPlayer()
     {
-        _agent.SetDestination(player.position);
+        if (CheckForLOS())
+        {
+            _agent.SetDestination(player.position);
+        }
+    }
+    
+    // ReSharper disable once InconsistentNaming
+    private bool CheckForLOS()
+    {
+        var direction = player.position - transform.position;
+        Physics.Raycast(transform.position, direction, out var hitInfo, 1000f);
+        return hitInfo.collider.CompareTag("Player");
     }
 }
