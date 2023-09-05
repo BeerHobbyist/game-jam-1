@@ -7,7 +7,7 @@ public class Health : MonoBehaviour
     [field: SerializeField]
     protected float MaxHealth { get; set; }
     [field : SerializeField] // TESTING PURPOSES ONLY
-    protected float CurrentHealth { get; set; }
+    public float CurrentHealth { get; protected set; }
 
     private void Awake()
     {
@@ -21,7 +21,7 @@ public class Health : MonoBehaviour
             Die();
     }
 
-    protected virtual void Die()
+    public virtual void Die()
     {
         gameObject.SetActive(false);
     }
