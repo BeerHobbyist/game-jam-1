@@ -27,8 +27,8 @@ Transform:
   m_GameObject: {fileID: 141425618093200855}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.0821, y: 0.28759998, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: -0.12427, y: 0.435, z: 0}
+  m_LocalScale: {x: 1.5139, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 489706677114334448}
@@ -44,9 +44,9 @@ Light:
   serializedVersion: 10
   m_Type: 2
   m_Shape: 0
-  m_Color: {r: 1, g: 0.87176263, b: 0, a: 1}
-  m_Intensity: 0.05
-  m_Range: 0.7
+  m_Color: {r: 1, g: 0.79915494, b: 0.4470588, a: 1}
+  m_Intensity: 1.5
+  m_Range: 10
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
@@ -145,8 +145,8 @@ Transform:
   m_GameObject: {fileID: 3514682469455535697}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.3158, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 0.000025749, y: 0.4764, z: 0}
+  m_LocalScale: {x: 1.5139, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 489706677114334448}
@@ -162,9 +162,9 @@ Light:
   serializedVersion: 10
   m_Type: 2
   m_Shape: 0
-  m_Color: {r: 1, g: 0.87176263, b: 0, a: 1}
-  m_Intensity: 0.01
-  m_Range: 0.7
+  m_Color: {r: 1, g: 0.79915494, b: 0.4470588, a: 1}
+  m_Intensity: 1.5
+  m_Range: 10
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
@@ -263,8 +263,8 @@ Transform:
   m_GameObject: {fileID: 4458639064959012109}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.082, y: 0.28759998, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 0.12417, y: 0.435, z: 0}
+  m_LocalScale: {x: 1.5139, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 489706677114334448}
@@ -280,9 +280,9 @@ Light:
   serializedVersion: 10
   m_Type: 2
   m_Shape: 0
-  m_Color: {r: 1, g: 0.87176263, b: 0, a: 1}
-  m_Intensity: 0.05
-  m_Range: 0.7
+  m_Color: {r: 1, g: 0.79915494, b: 0.4470588, a: 1}
+  m_Intensity: 1.5
+  m_Range: 10
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
@@ -415,7 +415,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: e4b4fda7225768841b4d1beaa8ec41f6,
         type: 3}
       propertyPath: m_Name
-      value: candlestick Variant
+      value: candlestick
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
