@@ -61,7 +61,12 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 5f522575586344545aa7a69eefa0f2e2,
         type: 3}
       propertyPath: m_Name
-      value: piano Variant
+      value: piano
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5f522575586344545aa7a69eefa0f2e2,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

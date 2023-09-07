@@ -61,7 +61,17 @@ PrefabInstance:
     - target: {fileID: 1926876549554729291, guid: 5f7541b2457f382468a0b3a4c220545f,
         type: 3}
       propertyPath: m_Name
-      value: table Variant
+      value: flipped_table
+      objectReference: {fileID: 0}
+    - target: {fileID: 1926876549554729291, guid: 5f7541b2457f382468a0b3a4c220545f,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 9104241929300432259, guid: 5f7541b2457f382468a0b3a4c220545f,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

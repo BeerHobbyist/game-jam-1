@@ -16,7 +16,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &4651432111755530916
 Transform:
@@ -31,7 +31,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 8021814190992077159}
+  m_Father: {fileID: 8122934084640725029}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!108 &4182015514546770179
 Light:
@@ -179,7 +179,12 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 1863a68e6b234dc4695d7b409e367558,
         type: 3}
       propertyPath: m_Name
-      value: candle Variant
+      value: candle
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 1863a68e6b234dc4695d7b409e367558,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -190,7 +195,7 @@ PrefabInstance:
       addedObject: {fileID: 4651432111755530916}
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1863a68e6b234dc4695d7b409e367558, type: 3}
---- !u!4 &8021814190992077159 stripped
+--- !u!4 &8122934084640725029 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 1863a68e6b234dc4695d7b409e367558,
     type: 3}

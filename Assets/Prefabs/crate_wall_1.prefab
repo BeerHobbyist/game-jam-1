@@ -15,7 +15,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &8739878918106313601
 Transform:
@@ -31,9 +31,9 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1858900594061722667}
-  - {fileID: 328437022866923958}
+  - {fileID: 4635171982087595751}
   - {fileID: 153226844444488093}
-  - {fileID: 4281013678696716083}
+  - {fileID: 9202138977697730656}
   - {fileID: 8154465220632647838}
   - {fileID: 4968668828528274453}
   - {fileID: 8386221774255336293}
@@ -208,7 +208,7 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 275658c9f166e0f4080d6a399c358b7a, type: 3}
---- !u!4 &328437022866923958 stripped
+--- !u!4 &4635171982087595751 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4962306976726730578, guid: 275658c9f166e0f4080d6a399c358b7a,
     type: 3}
@@ -433,7 +433,7 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 275658c9f166e0f4080d6a399c358b7a, type: 3}
---- !u!4 &4281013678696716083 stripped
+--- !u!4 &9202138977697730656 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4962306976726730578, guid: 275658c9f166e0f4080d6a399c358b7a,
     type: 3}

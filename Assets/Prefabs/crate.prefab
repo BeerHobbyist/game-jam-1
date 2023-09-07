@@ -61,7 +61,12 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: a55514462f2488a4593b21b04b230600,
         type: 3}
       propertyPath: m_Name
-      value: crate Variant
+      value: crate
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: a55514462f2488a4593b21b04b230600,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -72,7 +77,7 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 2595191216582068536}
   m_SourcePrefab: {fileID: 100100000, guid: a55514462f2488a4593b21b04b230600, type: 3}
---- !u!1 &2937069854678299753 stripped
+--- !u!1 &5734902343746264552 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: a55514462f2488a4593b21b04b230600,
     type: 3}
@@ -84,7 +89,7 @@ BoxCollider:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2937069854678299753}
+  m_GameObject: {fileID: 5734902343746264552}
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2

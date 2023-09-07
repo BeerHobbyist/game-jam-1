@@ -61,7 +61,12 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 094edbb170557f041b06f88e56fb96b2,
         type: 3}
       propertyPath: m_Name
-      value: horns Variant
+      value: horns
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 094edbb170557f041b06f88e56fb96b2,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

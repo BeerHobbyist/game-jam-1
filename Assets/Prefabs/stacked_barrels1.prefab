@@ -14,7 +14,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &4305913676158896965
 Transform:
@@ -30,7 +30,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1645492078327616286}
-  - {fileID: 21450076997325920}
+  - {fileID: 6532227842476006287}
   - {fileID: 5771600746887086657}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -102,7 +102,7 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 09c9010e5c772954f868feab8344a62d, type: 3}
---- !u!4 &21450076997325920 stripped
+--- !u!4 &6532227842476006287 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6551354436300984272, guid: 09c9010e5c772954f868feab8344a62d,
     type: 3}

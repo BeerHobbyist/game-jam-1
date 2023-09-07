@@ -61,7 +61,12 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: fc87de47f587bb54dae6bfdc824866f7,
         type: 3}
       propertyPath: m_Name
-      value: piano_thingy_square Variant
+      value: piano_thingy_square
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: fc87de47f587bb54dae6bfdc824866f7,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -72,7 +77,7 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 3689204409016332086}
   m_SourcePrefab: {fileID: 100100000, guid: fc87de47f587bb54dae6bfdc824866f7, type: 3}
---- !u!1 &4608244602786550375 stripped
+--- !u!1 &5257042421546823335 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: fc87de47f587bb54dae6bfdc824866f7,
     type: 3}
@@ -84,7 +89,7 @@ BoxCollider:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4608244602786550375}
+  m_GameObject: {fileID: 5257042421546823335}
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2

@@ -61,7 +61,12 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: a15e2af30740cc343952324f03ccf021,
         type: 3}
       propertyPath: m_Name
-      value: painting1 Variant
+      value: painting1
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: a15e2af30740cc343952324f03ccf021,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

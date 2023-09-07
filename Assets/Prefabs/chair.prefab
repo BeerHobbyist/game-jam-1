@@ -61,7 +61,12 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 2fe62e90c7690d34ebd5f2a04bb38c5c,
         type: 3}
       propertyPath: m_Name
-      value: chair Variant
+      value: chair
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 2fe62e90c7690d34ebd5f2a04bb38c5c,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -72,7 +77,7 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 7663243228583121270}
   m_SourcePrefab: {fileID: 100100000, guid: 2fe62e90c7690d34ebd5f2a04bb38c5c, type: 3}
---- !u!1 &7392701448209853479 stripped
+--- !u!1 &7352311016049635820 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 2fe62e90c7690d34ebd5f2a04bb38c5c,
     type: 3}
@@ -84,7 +89,7 @@ BoxCollider:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7392701448209853479}
+  m_GameObject: {fileID: 7352311016049635820}
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
