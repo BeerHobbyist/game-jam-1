@@ -10,20 +10,20 @@ public class UpdatePlaceHolderUI : MonoBehaviour
 { 
     [SerializeField] private TMP_Text bulletsRemainingText;
     [SerializeField] private TMP_Text hpText;
-    [SerializeField] private PlayerShootingController playerShootingController;
+    [FormerlySerializedAs("playerShootingController")] [SerializeField] private PlayerProjectileShootingController playerProjectileShootingController;
     [SerializeField] private Health playerHealth;
 
     private const string BulletsRemainingText = "Bullets Remaining: ";
 
     private void Awake()
     {
-        bulletsRemainingText.text = BulletsRemainingText + playerShootingController.CurrentBullets.ToString(CultureInfo.CurrentCulture);
+        bulletsRemainingText.text = BulletsRemainingText + playerProjectileShootingController.CurrentBullets.ToString(CultureInfo.CurrentCulture);
         hpText.text = "HP: " + playerHealth.CurrentHealth.ToString(CultureInfo.CurrentCulture);
     }
 
     private void Update()
     {
-        bulletsRemainingText.text = BulletsRemainingText + playerShootingController.CurrentBullets.ToString(CultureInfo.CurrentCulture);
+        bulletsRemainingText.text = BulletsRemainingText + playerProjectileShootingController.CurrentBullets.ToString(CultureInfo.CurrentCulture);
         hpText.text = "HP: " + playerHealth.CurrentHealth.ToString(CultureInfo.CurrentCulture);
     }
 }

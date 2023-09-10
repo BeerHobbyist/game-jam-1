@@ -7,20 +7,20 @@ public class RangedEnemyAttack : BaseEnemy
     [SerializeField] private GameObject gun;
     [SerializeField] private float attackInterval;
     
-    private IProjectileShooting _projectileShooting;
+    private IShootingBehaviour _projectileShooting;
 
     private float _timeSinceLastAttack;
 
     private void Awake()
     {
-        _projectileShooting = gun.GetComponent<IProjectileShooting>();
+        _projectileShooting = gun.GetComponent<IShootingBehaviour>();
     }
 
     private void Update()
     {
         if (CheckForLOS() && IsReadyToFire())
         {
-            _projectileShooting.ShootProjectile();
+            _projectileShooting.Fire();
         }
     }
 

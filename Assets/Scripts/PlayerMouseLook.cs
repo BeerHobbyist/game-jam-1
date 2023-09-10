@@ -3,12 +3,15 @@ using System.Collections;
 using System.Collections.Generic;
 using Input;
 using UnityEngine;
+using UnityEngine.Serialization;
+
 // ReSharper disable Unity.InefficientPropertyAccess
 
 public class PlayerMouseLook : MonoBehaviour
 {
     [SerializeField] private InputReader inputReader;
     [SerializeField] private LayerMask groundMask;
+    [SerializeField]private RaycastShootingBehaviour shootingController; // TODO: Rethink this. Maybe make a new class that handles both shooting and aiming?
     
     private Vector2 _mousePosition;
     private Camera _mainCamera;
@@ -33,6 +36,9 @@ public class PlayerMouseLook : MonoBehaviour
     private void Aim()
     {
         var (success, position) = GetWorldPosition();
+        
+        // Hard coded probably bad
+        shootingController.AimPosition = position;
 
         if (!success) return;
         

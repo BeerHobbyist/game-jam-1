@@ -4,7 +4,7 @@ using Input;
 using UnityEngine;
 using UnityEngine.Events;
 
-public class PlayerShootingController : MonoBehaviour
+public class PlayerProjectileShootingController : MonoBehaviour
 {
     [SerializeField] private VoidEventChannelSo bulletEventChannel;
     [SerializeField] private InputReader inputReader;
@@ -12,7 +12,7 @@ public class PlayerShootingController : MonoBehaviour
     [SerializeField] private float maxBullets;
     [SerializeField] private UnityEvent onBulletsGone;
     
-    private IProjectileShooting _projectileShooting;
+    private IShootingBehaviour _projectileShooting;
     [SerializeField] private float _currentBullets; //testing purposes only
 
     public float CurrentBullets // TESTING PURPOSES ONLY. USED BY PLACEHOLDER UI. REMOVE LATER!
@@ -25,8 +25,8 @@ public class PlayerShootingController : MonoBehaviour
     private void Awake()
     {
         CurrentBullets = maxBullets;
-        _projectileShooting = gun.GetComponent<IProjectileShooting>();
-        inputReader.onShootEvent += _projectileShooting.ShootProjectile;
+        _projectileShooting = gun.GetComponent<IShootingBehaviour>();
+        inputReader.onShootEvent += _projectileShooting.Fire;
         inputReader.onShootEvent += SpendBullet;
         bulletEventChannel.onEventRaised += AddBullet;
     }

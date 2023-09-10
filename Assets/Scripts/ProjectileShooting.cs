@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using Input;
 using UnityEngine;
 
-public class ProjectileShooting : MonoBehaviour, IProjectileShooting
+public class ProjectileShooting : MonoBehaviour, IShootingBehaviour
 {
     [SerializeField] private Transform projectileSpawnPoint;
     [SerializeField] private GameObject projectilePrefab;
@@ -19,7 +19,7 @@ public class ProjectileShooting : MonoBehaviour, IProjectileShooting
         ProjectileSpeed = projectileSpeed;
     }
 
-    public void ShootProjectile()
+    public void Fire()
     {
         var projectile = Instantiate(projectilePrefab, projectileSpawnPoint.position, transform.rotation);
         projectile.GetComponent<BulletBehaviour>().Damage = damage;
