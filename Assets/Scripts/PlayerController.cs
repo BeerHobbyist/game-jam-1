@@ -39,16 +39,15 @@ public class PlayerController : MonoBehaviour
     // Only to be used in FixedUpdate
     private void MovePlayer()
     {
-        if(_timeSinceLastDash > dashCooldown && _dashInput)
-        {
-            Dash();
-            return;
-        }
         _rb.velocity = new Vector3(_movementInput.x * speed, 0, _movementInput.y * speed);
         _timeSinceLastDash += Time.deltaTime;
         _dashDirection = _movementInput;
     }
 
+    
+    /// <summary>
+    /// Unused for now. Might be used later.
+    /// </summary>
     private void Dash()
     {
 

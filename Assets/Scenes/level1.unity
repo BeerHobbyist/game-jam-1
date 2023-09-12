@@ -41695,7 +41695,7 @@ MonoBehaviour:
   gunEnd: {fileID: 1428748919}
   damage: 10
   bounceRange: 10
-  fireRate: 450
+  fireRate: 2.5
   targetTag: Enemy
   bulletTrail: {fileID: 1673335536742778103, guid: c2a3e6be8b70ba54f87db31b8c536932,
     type: 3}

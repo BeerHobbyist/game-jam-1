@@ -34,6 +34,7 @@ public class RaycastShootingBehaviour : MonoBehaviour, IShootingBehaviour
         
         var hits = FireBullet(direction);
         StartCoroutine(DrawTrail(hits));
+        _timeSinceLastShot = 0;
     }
 
     private List<RaycastHit> FireBullet(Vector3 direction)
@@ -121,13 +122,13 @@ public class RaycastShootingBehaviour : MonoBehaviour, IShootingBehaviour
                 yield return null;
             }
         }
+        Destroy(trail.gameObject, trail.time);
     }
 
     private bool CheckIsIsReadyToFire()
     {
         if(_timeSinceLastShot > 1 / fireRate)
         {
-            _timeSinceLastShot = 0;
             return true;
         }
         _timeSinceLastShot += Time.deltaTime;
