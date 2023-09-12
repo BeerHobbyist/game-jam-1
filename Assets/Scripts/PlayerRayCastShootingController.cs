@@ -7,13 +7,12 @@ using UnityEngine;
 public class PlayerRayCastShootingController : MonoBehaviour
 {
     [SerializeField] private InputReader inputReader;
-    [SerializeField] private GameObject gun;
-    
+
     private IShootingBehaviour _shootingBehaviour;
 
     private void Awake()
     {
-        _shootingBehaviour = gun.GetComponent<IShootingBehaviour>();
-        inputReader.onShootEvent += _shootingBehaviour.Fire;
+        _shootingBehaviour = GetComponent<IShootingBehaviour>();
+        inputReader.onShootEvent += _shootingBehaviour.Shoot;
     }
 }

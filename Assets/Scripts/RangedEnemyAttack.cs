@@ -20,7 +20,7 @@ public class RangedEnemyAttack : BaseEnemy
     {
         if (CheckForLOS() && IsReadyToFire())
         {
-            _projectileShooting.Fire();
+            _projectileShooting.Shoot();
         }
     }
 

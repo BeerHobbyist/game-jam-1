@@ -11747,7 +11747,7 @@ Transform:
   m_GameObject: {fileID: 330585543}
   serializedVersion: 2
   m_LocalRotation: {x: 0.47561648, y: 0, z: 0, w: 0.87965274}
-  m_LocalPosition: {x: -14.45, y: 12.12, z: 1.74}
+  m_LocalPosition: {x: 4.25, y: 13.44, z: -2.4}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -18371,38 +18371,12 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a4fffe2e31ef19b4185dc3859223c2a4, type: 3}
---- !u!1 &807432534 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 2450503909839739622, guid: 922655ebbf5e49145b4d9b92dbf6ffad,
-    type: 3}
-  m_PrefabInstance: {fileID: 5818751743532167752}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &807432535 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 972526240577883830, guid: 922655ebbf5e49145b4d9b92dbf6ffad,
     type: 3}
   m_PrefabInstance: {fileID: 5818751743532167752}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &807432538
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 807432534}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e2fad76f992107044b6b0fd069d29ce0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  gunEnd: {fileID: 1428748919}
-  damage: 10
-  range: 100
-  fireRate: 15
-  targetTag: Enemy
-  bulletTrail: {fileID: 1673335536742778103, guid: c2a3e6be8b70ba54f87db31b8c536932,
-    type: 3}
-  trailSpeed: 100
 --- !u!1001 &817319228
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -41571,6 +41545,7 @@ GameObject:
   - component: {fileID: 1680545175}
   - component: {fileID: 1680545177}
   - component: {fileID: 1680545178}
+  - component: {fileID: 1680545179}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -41654,7 +41629,7 @@ MonoBehaviour:
   groundMask:
     serializedVersion: 2
     m_Bits: 4194304
-  shootingController: {fileID: 807432538}
+  shootingController: {fileID: 1680545179}
 --- !u!136 &1680545176
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -41705,7 +41680,26 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   inputReader: {fileID: 11400000, guid: cead7a8280d245f4489cbecdb3805a1b, type: 2}
-  gun: {fileID: 807432534}
+--- !u!114 &1680545179
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1680545170}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e2fad76f992107044b6b0fd069d29ce0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gunEnd: {fileID: 1428748919}
+  damage: 10
+  bounceRange: 10
+  fireRate: 450
+  targetTag: Enemy
+  bulletTrail: {fileID: 1673335536742778103, guid: c2a3e6be8b70ba54f87db31b8c536932,
+    type: 3}
+  trailSpeed: 400
 --- !u!1001 &1688006649
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -54326,11 +54320,7 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 1428748919}
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 2450503909839739622, guid: 922655ebbf5e49145b4d9b92dbf6ffad,
-        type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 807432538}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 922655ebbf5e49145b4d9b92dbf6ffad, type: 3}
 --- !u!4 &5818751743532167757 stripped
 Transform:

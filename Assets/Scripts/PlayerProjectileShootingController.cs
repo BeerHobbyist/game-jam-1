@@ -26,7 +26,7 @@ public class PlayerProjectileShootingController : MonoBehaviour
     {
         CurrentBullets = maxBullets;
         _projectileShooting = gun.GetComponent<IShootingBehaviour>();
-        inputReader.onShootEvent += _projectileShooting.Fire;
+        inputReader.onShootEvent += _projectileShooting.Shoot;
         inputReader.onShootEvent += SpendBullet;
         bulletEventChannel.onEventRaised += AddBullet;
     }

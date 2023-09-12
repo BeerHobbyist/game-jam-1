@@ -19,7 +19,7 @@ public class ProjectileShooting : MonoBehaviour, IShootingBehaviour
         ProjectileSpeed = projectileSpeed;
     }
 
-    public void Fire()
+    public void Shoot()
     {
         var projectile = Instantiate(projectilePrefab, projectileSpawnPoint.position, transform.rotation);
         projectile.GetComponent<BulletBehaviour>().Damage = damage;
