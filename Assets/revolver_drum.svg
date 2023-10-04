@@ -1,0 +1,382 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="200mm"
+   height="200mm"
+   viewBox="0 0 200 200"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.3 (0e150ed6c4, 2023-07-21)"
+   sodipodi:docname="revolver_drum.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     inkscape:zoom="1.0242632"
+     inkscape:cx="377.34442"
+     inkscape:cy="377.34442"
+     inkscape:window-width="1920"
+     inkscape:window-height="1009"
+     inkscape:window-x="1912"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer2" />
+  <defs
+     id="defs1">
+    <linearGradient
+       id="linearGradient2"
+       inkscape:collect="always">
+      <stop
+         style="stop-color:#000000;stop-opacity:0.20779221;"
+         offset="0.45602608"
+         id="stop5" />
+      <stop
+         style="stop-color:#000000;stop-opacity:0.45021644;"
+         offset="0.52280128"
+         id="stop6" />
+      <stop
+         style="stop-color:#000000;stop-opacity:0.49134198;"
+         offset="0.55211729"
+         id="stop7" />
+      <stop
+         style="stop-color:#000000;stop-opacity:0.16862746;"
+         offset="0.69869709"
+         id="stop4" />
+      <stop
+         style="stop-color:#000000;stop-opacity:0.16862746;"
+         offset="0.83061886"
+         id="stop3" />
+      <stop
+         style="stop-color:#000000;stop-opacity:0.58008659;"
+         offset="0.92671013"
+         id="stop1" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient166"
+       inkscape:collect="always">
+      <stop
+         style="stop-color:#606060;stop-opacity:1;"
+         offset="0.10804597"
+         id="stop29" />
+      <stop
+         style="stop-color:#1e1e1e;stop-opacity:1;"
+         offset="0.1172414"
+         id="stop30" />
+      <stop
+         style="stop-color:#606060;stop-opacity:1;"
+         offset="0.28275862"
+         id="stop27" />
+      <stop
+         style="stop-color:#323232;stop-opacity:1;"
+         offset="0.29655173"
+         id="stop28" />
+      <stop
+         style="stop-color:#292929;stop-opacity:1;"
+         offset="0.91142666"
+         id="stop168" />
+      <stop
+         style="stop-color:#5a5a5a;stop-opacity:1;"
+         offset="1"
+         id="stop167" />
+    </linearGradient>
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient166"
+       id="radialGradient167"
+       cx="100"
+       cy="100"
+       fx="100"
+       fy="100"
+       r="96.6101"
+       gradientUnits="userSpaceOnUse" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient2"
+       id="radialGradient19"
+       cx="100"
+       cy="41.878952"
+       fx="100"
+       fy="41.878952"
+       r="26.562393"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(-200)" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient2"
+       id="radialGradient11"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(-123.8779,-147.63193)"
+       cx="100"
+       cy="41.878952"
+       fx="100"
+       fy="41.878952"
+       r="26.562393" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient2"
+       id="radialGradient14"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(-200)"
+       cx="100"
+       cy="41.878952"
+       fx="100"
+       fy="41.878952"
+       r="26.562393" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient2"
+       id="radialGradient17"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(-200)"
+       cx="100"
+       cy="41.878952"
+       fx="100"
+       fy="41.878952"
+       r="26.562393" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient2"
+       id="radialGradient25"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(-200)"
+       cx="100"
+       cy="41.878952"
+       fx="100"
+       fy="41.878952"
+       r="26.562393" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient2"
+       id="radialGradient27"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(-200)"
+       cx="100"
+       cy="41.878952"
+       fx="100"
+       fy="41.878952"
+       r="26.562393" />
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <circle
+       style="fill:url(#radialGradient167);stroke-width:0.294;fill-opacity:1;stroke-dasharray:none"
+       id="path1"
+       cx="100"
+       cy="100"
+       r="96.6101"
+       inkscape:label="drum" />
+    <ellipse
+       style="fill:none;fill-opacity:1;stroke-width:0.316;stroke:none;stroke-dasharray:none"
+       id="path169"
+       cx="100"
+       cy="100"
+       rx="85.000511"
+       ry="84.469254"
+       inkscape:label="path169" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="Layer 2">
+    <g
+       id="g8"
+       inkscape:label="bullet1"
+       transform="rotate(-60,100,41.878952)">
+      <circle
+         style="fill:#cf00ff;fill-opacity:1;stroke:none;stroke-width:0.428372;stroke-opacity:1"
+         id="circle7"
+         cx="100"
+         cy="41.878952"
+         r="26.348207" />
+      <circle
+         style="fill:url(#radialGradient19);fill-opacity:1;stroke:#000000;stroke-width:0.428372;stroke-opacity:1"
+         id="path168"
+         cx="-100"
+         cy="41.878952"
+         transform="scale(-1,1)"
+         r="26.348207" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.76111px;line-height:0;font-family:'Alex Brush';-inkscape-font-specification:'Alex Brush, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0.529167px;fill:#e57eff;fill-opacity:1;stroke:none;stroke-width:0.730489"
+         id="text7"><textPath
+           xlink:href="#circle8"
+           id="textPath8"
+           style="font-size:7.76111px;letter-spacing:0.529167px;fill:#e379ff;fill-opacity:1">cal. 12 MM</textPath></text>
+      <circle
+         style="fill:none;fill-opacity:1;stroke:none;stroke-width:0.274438;stroke-opacity:1"
+         id="circle8"
+         cx="100"
+         cy="41.878952"
+         r="16.880091" />
+    </g>
+    <g
+       id="g11"
+       transform="rotate(100,112.97465,77.524199)"
+       inkscape:label="bullet2">
+      <circle
+         style="fill:#cf00ff;fill-opacity:1;stroke:none;stroke-width:0.428372;stroke-opacity:1"
+         id="circle9"
+         cx="100"
+         cy="41.878952"
+         r="26.348207" />
+      <circle
+         style="fill:url(#radialGradient11);fill-opacity:1;stroke:#000000;stroke-width:0.428372;stroke-opacity:1"
+         id="circle10"
+         cx="-23.877899"
+         cy="-105.75298"
+         transform="matrix(0.17364818,-0.98480775,-0.98480775,-0.17364818,0,0)"
+         r="26.348207" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.76111px;line-height:0;font-family:'Alex Brush';-inkscape-font-specification:'Alex Brush, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0.529167px;fill:#e57eff;fill-opacity:1;stroke:none;stroke-width:0.730489"
+         id="text10"><textPath
+           xlink:href="#circle8"
+           id="textPath10"
+           style="font-size:7.76111px;letter-spacing:0.529167px;fill:#e379ff;fill-opacity:1">cal. 12 MM</textPath></text>
+      <circle
+         style="fill:none;fill-opacity:1;stroke:none;stroke-width:0.274438;stroke-opacity:1"
+         id="circle11"
+         cx="100"
+         cy="41.878952"
+         r="16.880091" />
+    </g>
+    <g
+       id="g14"
+       transform="rotate(-60,200.66444,41.879911)"
+       inkscape:label="bullet3">
+      <circle
+         style="fill:#cf00ff;fill-opacity:1;stroke:none;stroke-width:0.428372;stroke-opacity:1"
+         id="circle12"
+         cx="100"
+         cy="41.878952"
+         r="26.348207" />
+      <circle
+         style="fill:url(#radialGradient14);fill-opacity:1;stroke:#000000;stroke-width:0.428372;stroke-opacity:1"
+         id="circle13"
+         cx="-100"
+         cy="41.878952"
+         transform="scale(-1,1)"
+         r="26.348207" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.76111px;line-height:0;font-family:'Alex Brush';-inkscape-font-specification:'Alex Brush, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0.529167px;fill:#e57eff;fill-opacity:1;stroke:none;stroke-width:0.730489"
+         id="text13"><textPath
+           xlink:href="#circle8"
+           id="textPath13"
+           style="font-size:7.76111px;letter-spacing:0.529167px;fill:#e379ff;fill-opacity:1">cal. 12 MM</textPath></text>
+      <circle
+         style="fill:none;fill-opacity:1;stroke:none;stroke-width:0.274438;stroke-opacity:1"
+         id="circle14"
+         cx="100"
+         cy="41.878952"
+         r="16.880091" />
+    </g>
+    <g
+       id="g17"
+       transform="rotate(-160,110.24854,100.00014)"
+       inkscape:label="bullet4">
+      <circle
+         style="fill:#cf00ff;fill-opacity:1;stroke:none;stroke-width:0.428372;stroke-opacity:1"
+         id="circle15"
+         cx="100"
+         cy="41.878952"
+         r="26.348207" />
+      <circle
+         style="fill:url(#radialGradient17);fill-opacity:1;stroke:#000000;stroke-width:0.428372;stroke-opacity:1"
+         id="circle16"
+         cx="-100"
+         cy="41.878952"
+         transform="scale(-1,1)"
+         r="26.348207" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.76111px;line-height:0;font-family:'Alex Brush';-inkscape-font-specification:'Alex Brush, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0.529167px;fill:#e57eff;fill-opacity:1;stroke:none;stroke-width:0.730489"
+         id="text16"><textPath
+           xlink:href="#circle8"
+           id="textPath16"
+           style="font-size:7.76111px;letter-spacing:0.529167px;fill:#e379ff;fill-opacity:1">cal. 12 MM</textPath></text>
+      <circle
+         style="fill:none;fill-opacity:1;stroke:none;stroke-width:0.274438;stroke-opacity:1"
+         id="circle17"
+         cx="100"
+         cy="41.878952"
+         r="16.880091" />
+    </g>
+    <g
+       id="g20"
+       transform="rotate(-60,150.32994,129.06182)"
+       inkscape:label="bullet5">
+      <circle
+         style="fill:#cf00ff;fill-opacity:1;stroke:none;stroke-width:0.428372;stroke-opacity:1"
+         id="circle18"
+         cx="100"
+         cy="41.878952"
+         r="26.348207" />
+      <circle
+         style="fill:url(#radialGradient25);fill-opacity:1;stroke:#000000;stroke-width:0.428372;stroke-opacity:1"
+         id="circle19"
+         cx="-100"
+         cy="41.878952"
+         transform="scale(-1,1)"
+         r="26.348207" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.76111px;line-height:0;font-family:'Alex Brush';-inkscape-font-specification:'Alex Brush, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0.529167px;fill:#e57eff;fill-opacity:1;stroke:none;stroke-width:0.730489"
+         id="text19"><textPath
+           xlink:href="#circle8"
+           id="textPath19"
+           style="font-size:7.76111px;letter-spacing:0.529167px;fill:#e379ff;fill-opacity:1">cal. 12 MM</textPath></text>
+      <circle
+         style="fill:none;fill-opacity:1;stroke:none;stroke-width:0.274438;stroke-opacity:1"
+         id="circle20"
+         cx="100"
+         cy="41.878952"
+         r="16.880091" />
+    </g>
+    <g
+       id="g27"
+       transform="rotate(-160,77.393002,60.845612)"
+       inkscape:label="bullet6">
+      <circle
+         style="fill:#cf00ff;fill-opacity:1;stroke:none;stroke-width:0.428372;stroke-opacity:1"
+         id="circle25"
+         cx="100"
+         cy="41.878952"
+         r="26.348207" />
+      <circle
+         style="fill:url(#radialGradient27);fill-opacity:1;stroke:#000000;stroke-width:0.428372;stroke-opacity:1"
+         id="circle26"
+         cx="-100"
+         cy="41.878952"
+         transform="scale(-1,1)"
+         r="26.348207" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.76111px;line-height:0;font-family:'Alex Brush';-inkscape-font-specification:'Alex Brush, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0.529167px;fill:#e57eff;fill-opacity:1;stroke:none;stroke-width:0.730489"
+         id="text26"><textPath
+           xlink:href="#circle8"
+           id="textPath26"
+           style="font-size:7.76111px;letter-spacing:0.529167px;fill:#e379ff;fill-opacity:1">cal. 12 MM</textPath></text>
+      <circle
+         style="fill:none;fill-opacity:1;stroke:none;stroke-width:0.274438;stroke-opacity:1"
+         id="circle27"
+         cx="100"
+         cy="41.878952"
+         r="16.880091" />
+    </g>
+  </g>
+</svg>
